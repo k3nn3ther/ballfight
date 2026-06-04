@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>AppWindow.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#191a1c">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+AppWindow.java</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">javax</span><span class="s2">.</span><span class="s1">swing</span><span class="s2">.*;</span>
+<span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">awt</span><span class="s2">.*;</span>
+
+<span class="s0">public class </span><span class="s1">AppWindow </span><span class="s0">extends </span><span class="s1">JFrame </span><span class="s2">{</span>
+
+    <span class="s0">public </span><span class="s1">AppWindow</span><span class="s2">(){</span>
+        <span class="s1">initComponents</span><span class="s2">();</span>
+        <span class="s1">UI ui </span><span class="s2">= </span><span class="s0">new </span><span class="s1">UI</span><span class="s2">();</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">initComponents</span><span class="s2">(){</span>
+        <span class="s1">setTitle</span><span class="s2">(</span><span class="s3">&quot;Weapon Ball Tournament&quot;</span><span class="s2">);</span>
+        <span class="s1">setSize</span><span class="s2">(</span><span class="s0">new </span><span class="s1">Dimension</span><span class="s2">(</span><span class="s4">480</span><span class="s2">,</span><span class="s4">800</span><span class="s2">));</span>
+        <span class="s1">setIconImage</span><span class="s2">(</span><span class="s0">new </span><span class="s1">ImageIcon</span><span class="s2">(</span><span class="s3">&quot;file:///Users/kennethsamson/Desktop/channels4_profile.jpg&quot;</span><span class="s2">).</span><span class="s1">getImage</span><span class="s2">());</span>
+        <span class="s1">GridLayout gridLayout </span><span class="s2">= </span><span class="s0">new </span><span class="s1">GridLayout</span><span class="s2">(</span><span class="s4">1</span><span class="s2">,</span><span class="s4">1</span><span class="s2">);</span>
+        <span class="s1">setLayout</span><span class="s2">(</span><span class="s1">gridLayout</span><span class="s2">);</span>
+        <span class="s1">setLocationRelativeTo</span><span class="s2">(</span><span class="s0">null</span><span class="s2">);</span>
+        <span class="s1">setDefaultCloseOperation</span><span class="s2">(</span><span class="s1">JFrame</span><span class="s2">.</span><span class="s1">EXIT_ON_CLOSE</span><span class="s2">);</span>
+    <span class="s2">}</span>
+<span class="s2">}</span>
+
+
+</pre>
+</body>
+</html>
